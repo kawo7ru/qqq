@@ -1,6 +1,6 @@
 [project]
 name = "games-project-surova"  
-version = "0.1.0"
+version = "0.1.2"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
@@ -24,3 +24,5 @@ dev = [
 [project.scripts]
 VD-games = "VD_games.scripts.VD_main:main"
 VD-even = "VD_games.scripts.VD_even:main"
+VD-progression = "VD_games.scripts.VD_progression:main"
+VD-prime = "VD_games.scripts.VD_prime:main"
